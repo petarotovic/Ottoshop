@@ -4,7 +4,7 @@ import { HeaderComponent } from './header/header.component';
 import { StartingPageComponent } from './StartingPage/starting-page/starting-page.component';
 
 const routes: Routes = [
-  {path: '', component: StartingPageComponent}
+  {path: '', component: StartingPageComponent},
 ];
 
 @NgModule({

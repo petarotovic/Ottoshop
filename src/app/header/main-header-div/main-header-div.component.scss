@@ -1,0 +1,156 @@
+$mainheaderheight: 80px;
+$mainheaderwidth: 100%;
+$bannermessagebgcolor: black;
+$testborder: 1px solid red;
+
+@mixin flex-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+@media only screen and (max-width: 600px) {
+    #main-header-div {
+        height: $mainheaderheight;
+        width: $mainheaderwidth;
+        border: $testborder;
+        @include flex-middle();
+    }
+  
+    #main-header-image {
+        width: 30%;
+        height: 100%;
+        border: $testborder;
+        @include flex-start();
+    }
+
+    #main-header-menu {
+        width: 40%;
+        height: 100%;
+        border: $testborder;
+    }
+
+    #main-header-tools {
+        width: 30%;
+        height: 100%;
+        border: $testborder;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    #main-header-div {
+        height: $mainheaderheight;
+        width: $mainheaderwidth;
+        border: $testborder;
+        @include flex-middle();
+    }
+  
+    #main-header-image {
+        width: 30%;
+        height: 100%;
+        border: $testborder;
+        @include flex-start();
+    }
+
+    #main-header-menu {
+        width: 40%;
+        height: 100%;
+        border: $testborder;
+    }
+
+    #main-header-tools {
+        width: 30%;
+        height: 100%;
+        border: $testborder;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    #main-header-div {
+        height: $mainheaderheight;
+        width: $mainheaderwidth;
+        border: $testborder;
+        @include flex-middle();
+    }
+  
+    #main-header-image {
+        width: 30%;
+        height: 100%;
+        border: $testborder;
+        @include flex-start();
+    }
+
+    #main-header-menu {
+        width: 40%;
+        height: 100%;
+        border: $testborder;
+    }
+
+    #main-header-tools {
+        width: 30%;
+        height: 100%;
+        border: $testborder;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    #main-header-div {
+        height: $mainheaderheight;
+        width: $mainheaderwidth;
+        border: $testborder;
+        @include flex-middle();
+    }
+  
+    #main-header-image {
+        width: 30%;
+        height: 100%;
+        border: $testborder;
+        @include flex-start();
+    }
+
+    #main-header-menu {
+        width: 40%;
+        height: 100%;
+        border: $testborder;
+    }
+
+    #main-header-tools {
+        width: 30%;
+        height: 100%;
+        border: $testborder;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    #main-header-div {
+        height: $mainheaderheight;
+        width: $mainheaderwidth;
+        border: $testborder;
+        @include flex-middle();
+    }
+
+    #main-header-image {
+        width: 30%;
+        height: 100%;
+        border: $testborder;
+        @include flex-start();
+    }
+
+    #main-header-menu {
+        width: 40%;
+        height: 100%;
+        border: $testborder;
+    }
+
+    #main-header-tools {
+        width: 30%;
+        height: 100%;
+        border: $testborder;
+    }
+}

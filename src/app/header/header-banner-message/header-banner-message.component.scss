@@ -1,10 +1,24 @@
   $bannermessageheight: 25px;
   $bannermessagebgcolor: black;
+  $testborder: 1px solid red;
+
+  @mixin flex-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
   @media only screen and (max-width: 600px) {
     #header-message-div {
         background-color: $bannermessagebgcolor;
         height: $bannermessageheight;
+    }
+
+    #hbm-center-text-div {
+        width: 100%;
+        height: 100%;
+        @include flex-middle();
+        font-size: 10px;
     }
   }
 
@@ -13,12 +27,25 @@
         background-color: $bannermessagebgcolor;
         height: $bannermessageheight;
     }
+
+    #hbm-center-text-div {
+        width: 100%;
+        height: 100%;
+        @include flex-middle();
+        font-size: 10px;
+    }
   }
 
   @media only screen and (min-width: 769px) and (max-width: 992px) {
     #header-message-div {
         background-color: $bannermessagebgcolor;
         height: $bannermessageheight;
+    }
+
+    #hbm-center-text-div {
+        width: 100%;
+        height: 100%;
+        @include flex-middle();
     }
   }
 
@@ -27,15 +54,28 @@
         background-color: $bannermessagebgcolor;
         height: $bannermessageheight;
     }
+
+    #hbm-center-text-div {
+        width: 100%;
+        height: 100%;
+        @include flex-middle();
+    }
   }
 
-  @media only screen and (min-width: 1202px) {
+  @media only screen and (min-width: 1201px) {
     #header-message-div {
         background-color: $bannermessagebgcolor;
         height: $bannermessageheight;
     }
+
+    #hbm-center-text-div {
+        width: 100%;
+        height: 100%;
+        @include flex-middle();
+    }
   }
 
   p {
-    color: wheat;
+    color: white;
+    font-family: 'Bold';
   }

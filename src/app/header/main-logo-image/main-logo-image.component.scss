@@ -1,0 +1,60 @@
+$mainheaderheight: 80px;
+$mainheaderwidth: 100%;
+$bannermessagebgcolor: black;
+$testborder: 1px solid red;
+
+@mixin flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    #main-logo-image {
+        border: $testborder;
+    }
+
+    #main-logo-image > img {
+        width: inherit;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    #main-logo-image {
+        border: $testborder;
+    }
+
+    #main-logo-image > img {
+        width: inherit;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    #main-logo-image {
+        border: $testborder;
+    }
+
+    #main-logo-image > img {
+        width: inherit;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    #main-logo-image {
+        border: $testborder;
+    }
+
+    #main-logo-image > img {
+        width: inherit;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    #main-logo-image {
+        border: $testborder;
+    }
+
+    #main-logo-image > img {
+        width: inherit;
+    }
+}

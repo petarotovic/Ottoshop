@@ -15,6 +15,6 @@ export class StyleDirective implements OnInit {
 
     ngOnInit(): void {
         this.renderer.setStyle(this.element.nativeElement, 'backgroundColor', 'red');
-        //this.renderer.setStyle(this.element.nativeElement, 'height', this.height);
+        this.renderer.setStyle(this.element.nativeElement, 'height', this.height);
     }
 }

@@ -1,0 +1,41 @@
+  $bannermessageheight: 25px;
+  $bannermessagebgcolor: black;
+  
+  @media only screen and (max-width: 600px) {
+    #header-message-div {
+        background-color: $bannermessagebgcolor;
+        height: $bannermessageheight;
+    }
+  }
+
+  @media only screen and (min-width: 601px) and (max-width: 768px) {
+    #header-message-div {
+        background-color: $bannermessagebgcolor;
+        height: $bannermessageheight;
+    }
+  }
+
+  @media only screen and (min-width: 769px) and (max-width: 992px) {
+    #header-message-div {
+        background-color: $bannermessagebgcolor;
+        height: $bannermessageheight;
+    }
+  }
+
+  @media only screen and (min-width: 993px) and (max-width: 1200px) {
+    #header-message-div {
+        background-color: $bannermessagebgcolor;
+        height: $bannermessageheight;
+    }
+  }
+
+  @media only screen and (min-width: 1202px) {
+    #header-message-div {
+        background-color: $bannermessagebgcolor;
+        height: $bannermessageheight;
+    }
+  }
+
+  p {
+    color: wheat;
+  }

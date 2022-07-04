@@ -3,16 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './Header/header/header.component';
+import { HeaderComponent } from './header/header.component';
 import { StartingPageComponent } from './StartingPage/starting-page/starting-page.component';
 import { StyleDirective } from './Directives/style.directive';
+import { HeaderBannerMessageComponent } from './Header/header-banner-message/header-banner-message.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     StartingPageComponent,
-    StyleDirective
+    StyleDirective,
+    HeaderBannerMessageComponent
   ],
   imports: [
     BrowserModule,

@@ -9,7 +9,6 @@ import { StyleDirective } from './Directives/style.directive';
 import { HeaderBannerMessageComponent } from './header/header-banner-message/header-banner-message.component';
 import { MainHeaderDivComponent } from './header/main-header-div/main-header-div.component';
 import { SizeDirective } from './Directives/size.directive';
-import { MainLogoImageComponent } from './header/main-logo-image/main-logo-image.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +19,6 @@ import { MainLogoImageComponent } from './header/main-logo-image/main-logo-image
     HeaderBannerMessageComponent,
     MainHeaderDivComponent,
     SizeDirective,
-    MainLogoImageComponent
   ],
   imports: [
     BrowserModule,

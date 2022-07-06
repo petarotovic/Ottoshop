@@ -1,3 +1,13 @@
-<a href="#"><div>
-    <img src="/src/assets/">
-</div></a>
+<a href="#" *ngIf="!margin; else addmargin">
+    <div class="{{ classid }}">
+        <img src="{{ imgpath }}">
+    </div>
+</a>
+
+<ng-template #addmargin>
+    <a href="#" [ngStyle]="{'margin-left': marsum}">
+        <div class="{{ classid }}">
+            <img src="{{ imgpath }}">
+        </div>
+    </a>
+</ng-template>

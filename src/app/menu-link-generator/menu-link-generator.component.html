@@ -1,0 +1,13 @@
+<a href="#" *ngIf="!bold; else showbold">
+    <div id="menu-link">
+        <p style="font-family: 'Regular';">{{ linktext }}</p>
+    </div>
+</a>
+
+<ng-template #showbold>
+    <a href="#">
+        <div id="menu-link">
+            <p style="font-family: 'Bold';">{{ linktext }}</p>
+        </div>
+    </a>
+</ng-template>

@@ -1,0 +1,130 @@
+$testborder: 1px solid red;
+
+a {
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    .header-logo-img {
+        width: 60px;
+        height: 60px;
+        border: $testborder;
+    }
+    
+    .header-logo-img > img {
+        width: inherit;
+        height: inherit;
+    }
+
+    .header-short-menu-img {
+        width: 30px;
+        height: 30px;
+        border: $testborder;
+        margin-left: 10px;
+    }
+    
+    .header-short-menu-img > img {
+        width: inherit;
+        height: inherit;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .header-logo-img {
+        width: 60px;
+        height: 60px;
+        border: $testborder;
+    }
+    
+    .header-logo-img > img {
+        width: inherit;
+        height: inherit;
+    }
+
+    .header-short-menu-img {
+        width: 30px;
+        height: 30px;
+        border: $testborder;
+        margin-left: 20px;
+    }
+    
+    .header-short-menu-img > img {
+        width: inherit;
+        height: inherit;
+    }  
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .header-logo-img {
+        width: 60px;
+        height: 60px;
+        border: $testborder;
+    }
+    
+    .header-logo-img > img {
+        width: inherit;
+        height: inherit;
+    }
+
+    .header-short-menu-img {
+        width: 30px;
+        height: 30px;
+        border: $testborder;
+        margin-left: 20px;
+    }
+    
+    .header-short-menu-img > img {
+        width: inherit;
+        height: inherit;
+    }    
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .header-logo-img {
+        width: 60px;
+        height: 60px;
+        border: $testborder;
+    }
+    
+    .header-logo-img > img {
+        width: inherit;
+        height: inherit;
+    }
+    
+    .header-short-menu-img {
+        width: 60px;
+        height: 60px;
+        border: $testborder;
+        margin-left: 20px;
+    }
+    
+    .header-short-menu-img > img {
+        width: inherit;
+        height: inherit;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    .header-logo-img {
+        width: 60px;
+        height: 60px;
+        border: $testborder;
+    }
+    
+    .header-logo-img > img {
+        width: inherit;
+        height: inherit;
+    }
+
+    .header-short-menu-img {
+        width: 60px;
+        height: 60px;
+        border: $testborder;
+        margin-left: 20px;
+    }
+    
+    .header-short-menu-img > img {
+        width: inherit;
+        height: inherit;
+    }
+}

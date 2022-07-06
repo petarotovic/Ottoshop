@@ -9,6 +9,7 @@ import { HeaderBannerMessageComponent } from './header/header-banner-message/hea
 import { MainHeaderDivComponent } from './header/main-header-div/main-header-div.component';
 import { SizeDirective } from './Directives/size.directive';
 import { DivImageGeneratorComponent } from './div-image-generator/div-image-generator.component';
+import { MenuLinkGeneratorComponent } from './menu-link-generator/menu-link-generator.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { DivImageGeneratorComponent } from './div-image-generator/div-image-gene
     MainHeaderDivComponent,
     SizeDirective,
     DivImageGeneratorComponent,
+    MenuLinkGeneratorComponent,
   ],
   imports: [
     BrowserModule,

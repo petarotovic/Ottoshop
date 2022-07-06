@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+$testborder: 1px solid red;
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'Bold';
+    src: url("../src/app/Fonts/Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Light';
+    src: url("../src/app/Fonts/Regular.ttf");
+}

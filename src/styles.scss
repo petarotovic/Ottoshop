@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'Regular';
+    src: url('../src/app/Fonts/regular.ttf');
+}
+
+@font-face {
+    font-family: 'Bold';
+    src: url('../src/app/Fonts/Bold.ttf');
+}

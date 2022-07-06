@@ -52,5 +52,24 @@ $testborder: 1px solid red;
         width: 100%;
         height: 70px;
         border-bottom: 1px solid gainsboro;
+        @include flex-middle();
+    }
+
+    #main-header-image {
+        width: 20%;
+        height: 100%;
+        border: $testborder;
+    }
+
+    #main-header-menu {
+        width: 60%;
+        height: 100%;
+        border: $testborder;
+    }
+
+    #main-header-tools {
+        width: 20%;
+        height: 100%;
+        border: $testborder;
     }
 }

@@ -8,6 +8,7 @@ import { StartingPageComponent } from './StartingPage/starting-page/starting-pag
 import { HeaderBannerMessageComponent } from './header/header-banner-message/header-banner-message.component';
 import { MainHeaderDivComponent } from './header/main-header-div/main-header-div.component';
 import { SizeDirective } from './Directives/size.directive';
+import { DivImageGeneratorComponent } from './div-image-generator/div-image-generator.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { SizeDirective } from './Directives/size.directive';
     HeaderBannerMessageComponent,
     MainHeaderDivComponent,
     SizeDirective,
+    DivImageGeneratorComponent,
   ],
   imports: [
     BrowserModule,

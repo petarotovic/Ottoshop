@@ -1,11 +1,15 @@
+<<<<<<< HEAD
 $testborder: 1px solid red;
 
+=======
+>>>>>>> 634deb94ead25f552c9f7e87e6f28f43c9b3bf8d
 * {
     margin: 0px;
     padding: 0px;
 }
 
 @font-face {
+<<<<<<< HEAD
     font-family: 'Bold';
     src: url("../src/app/Fonts/Bold.ttf");
 }
@@ -13,4 +17,13 @@ $testborder: 1px solid red;
 @font-face {
     font-family: 'Light';
     src: url("../src/app/Fonts/Regular.ttf");
+=======
+    font-family: 'Regular';
+    src: url('../src/app/Fonts/regular.ttf');
+}
+
+@font-face {
+    font-family: 'Bold';
+    src: url('../src/app/Fonts/Bold.ttf');
+>>>>>>> 634deb94ead25f552c9f7e87e6f28f43c9b3bf8d
 }

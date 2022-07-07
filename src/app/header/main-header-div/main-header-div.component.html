@@ -1,6 +1,6 @@
 <div id="main-header-div">
     <div id="main-header-image">
-        <app-div-image-generator id="logo-img" [imgpath]="'/assets/logo.png'" [classid]="'header-logo-img'" [margin]="true" [marsum]="'10px'">
+        <app-div-image-generator id="logo-img" [imgpath]="'/assets/logo.png'" [classid]="'header-logo-img'" [margin]="true" [marsumleft]="'10px'">
         </app-div-image-generator>
         <app-div-image-generator id="short-menu" [imgpath]="'/assets/menu-short.png'" [classid]="'header-short-menu-img'">
         </app-div-image-generator>
@@ -18,6 +18,11 @@
         </app-div-image-generator>
     </div>
     <div id="main-header-tools">
-        
+        <app-div-image-generator class="tools-img" (click)="loga()" [imgpath]="'/assets/search.png'" [classid]="'header-tools-img'">
+        </app-div-image-generator>
+        <app-div-image-generator class="tools-img" [imgpath]="'/assets/user.png'" [classid]="'header-tools-img'">
+        </app-div-image-generator>
+        <app-div-image-generator class="tools-img" [imgpath]="'/assets/shopping-cart.png'" [classid]="'header-tools-img'" [margin]="true" [marsumright]="'10px'">
+        </app-div-image-generator>
     </div>
 </div>

@@ -12,4 +12,7 @@ export class MainHeaderDivComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  loga() {
+    console.log('Ovo');
+  }
 }

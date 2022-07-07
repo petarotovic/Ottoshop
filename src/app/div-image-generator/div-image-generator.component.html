@@ -1,11 +1,19 @@
-<a href="#" *ngIf="!margin; else addmargin">
+<a href="#" *ngIf="!margin; else addmarginleft">
     <div class="{{ classid }}">
         <img src="{{ imgpath }}">
     </div>
 </a>
 
-<ng-template #addmargin>
-    <a href="#" [ngStyle]="{'margin-left': marsum}">
+<ng-template #addmarginleft>
+    <a href="#" *ngIf="marsumleft != '0px'; else addmarginright" [ngStyle]="{'margin-left': marsumleft}">
+        <div class="{{ classid }}">
+            <img src="{{ imgpath }}">
+        </div>
+    </a>
+</ng-template>
+
+<ng-template #addmarginright>
+    <a href="#"  [ngStyle]="{'margin-right': marsumright}">
         <div class="{{ classid }}">
             <img src="{{ imgpath }}">
         </div>

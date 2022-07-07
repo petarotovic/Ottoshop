@@ -9,7 +9,8 @@ export class DivImageGeneratorComponent implements OnInit {
   @Input() imgpath: string = '';
   @Input() classid: string = '';
   @Input() margin: boolean = false;
-  @Input() marsum: string = '';
+  @Input() marsumleft: string = '0px';
+  @Input() marsumright: string = '';
 
   constructor() { }
 

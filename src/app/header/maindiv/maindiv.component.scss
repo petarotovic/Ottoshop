@@ -1,0 +1,210 @@
+@mixin flex-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;  
+}
+
+@mixin flex-end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+$testborder: 1px solid red;
+
+@media only screen and (max-width: 600px) {
+    #main-header-div {
+        width: 100%;
+        height: 75px;
+        border-bottom: 1px solid gainsboro;
+        @include flex-middle();
+    }
+
+    #logo-image {
+        width: 40%;
+        height: 100%;
+        border: $testborder;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #logo-img-button {
+        display: none;
+    }
+
+    #menu-div {
+        width: 30%;
+        height: 100%;
+        border: $testborder;
+    }
+
+    #tools-div {
+        width: 40%;
+        height: 100%;
+        border: $testborder;
+    }
+
+    #short-menu-button {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    #main-header-div {
+        width: 100%;
+        height: 75px;
+        border-bottom: 1px solid gainsboro;
+        @include flex-middle();
+    }
+
+    #logo-image {
+        width: 40%;
+        height: 100%;
+        border: $testborder;
+        @include flex-start();
+    }
+
+    #logo-img-button {
+        display: none;
+    }
+
+    #menu-div {
+        width: 20%;
+        height: 100%;
+        border: $testborder;
+    }
+
+    #tools-div {
+        width: 40%;
+        height: 100%;
+        border: $testborder;
+    }
+
+    #short-menu-button {
+        margin-left: 15px;
+    }
+
+    #search-menu-button {
+        margin-left: 25px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    #main-header-div {
+        width: 100%;
+        height: 75px;
+        border-bottom: 1px solid gainsboro;
+        @include flex-middle();
+    }
+
+    #logo-image {
+        width: 40%;
+        height: 100%;
+        border: $testborder;
+        @include flex-start();
+    }
+
+    #logo-img-button {
+        display: none;
+    }
+
+    #menu-div {
+        width: 20%;
+        height: 100%;
+        border: $testborder;
+    }
+
+    #tools-div {
+        width: 40%;
+        height: 100%;
+        border: $testborder;
+    }
+
+    #short-menu-button {
+        margin-left: 15px;
+    }
+
+    #search-menu-button {
+        margin-left: 25px;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    #main-header-div {
+        width: 100%;
+        height: 75px;
+        border-bottom: 1px solid gainsboro;
+        @include flex-middle();
+    }
+
+    #logo-image {
+        width: 20%;
+        height: 100%;
+        border: $testborder;
+        @include flex-start();
+    }
+
+    #menu-div {
+        width: 60%;
+        height: 100%;
+        border: $testborder;
+    }
+
+    #tools-div {
+        width: 20%;
+        height: 100%;
+        border: $testborder;
+    }
+
+    #short-menu-button {
+        display: none;
+    }
+
+    #search-menu-button {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    #main-header-div {
+        width: 100%;
+        height: 75px;
+        border-bottom: 1px solid gainsboro;
+        @include flex-middle();
+    }
+
+    #logo-image {
+        width: 20%;
+        height: 100%;
+        border: $testborder;
+        @include flex-start();
+    }
+
+    #menu-div {
+        width: 60%;
+        height: 100%;
+        border: $testborder;
+    }
+
+    #tools-div {
+        width: 20%;
+        height: 100%;
+        border: $testborder;
+    }
+
+    #short-menu-button {
+        display: none;
+    }
+
+    #search-menu-button {
+        display: none;
+    }
+} 

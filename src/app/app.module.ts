@@ -1,18 +1,21 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { StartingPageComponent } from './StartingPage/starting-page/starting-page.component';
-import { SizeDirective } from './Directives/size.directive';
+import { HeaderbannerComponent } from './header/headerbanner/headerbanner.component';
+import { ButtonComponent } from './Generators/button-generator/button.component';
+import { MaindivComponent } from './header/maindiv/maindiv.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     StartingPageComponent,
-    SizeDirective
+    HeaderbannerComponent,
+    ButtonComponent,
+    MaindivComponent,
   ],
   imports: [
     BrowserModule,

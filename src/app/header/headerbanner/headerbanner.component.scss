@@ -1,0 +1,230 @@
+$testborder: none;
+
+@mixin flex-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;  
+}
+
+@mixin flex-end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    #top-banner-header {
+        width: 100%;
+        height: 25px;
+        background-color: black;
+        @include flex-middle();
+    }
+
+    .container-socials {
+        display: none;
+    }
+
+    .container-message {
+        width: 100%;
+        height: 100%;
+        border: $testborder;
+        @include flex-middle();
+    }
+
+    .container-message > p {
+        color: white;
+        font-family: 'Black';
+        font-size: 9px;
+    }
+
+    .container-loggedin {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    #top-banner-header {
+        width: 100%;
+        height: 25px;
+        background-color: black;
+        @include flex-middle();
+    }
+
+    .container-socials {
+        display: none;
+    }
+
+    .container-message {
+        width: 100%;
+        height: 100%;
+        border: $testborder;
+        @include flex-middle();
+    }
+
+    .container-message > p {
+        color: white;
+        font-family: 'Black';
+    }
+
+    .container-loggedin {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    #top-banner-header {
+        width: 100%;
+        height: 25px;
+        background-color: black;
+        @include flex-middle();
+    }
+
+    .container-socials {
+        display: none;
+    }
+
+    .container-message {
+        width: 100%;
+        height: 100%;
+        border: $testborder;
+        @include flex-middle();
+    }
+
+    .container-message > p {
+        color: white;
+        font-family: 'Black';
+    }
+
+    .container-loggedin {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    #top-banner-header {
+        width: 100%;
+        height: 25px;
+        background-color: black;
+        @include flex-middle();
+    }
+
+    .container-socials {
+        width: 29%;
+        height: 100%;
+        border: $testborder;
+        @include flex-start();
+    }
+
+    #social-message {
+        width: auto;
+        height: 17px;
+        border: $testborder;
+        margin-left: 10px;
+        @include flex-middle();
+    }
+
+    #social-message > p {
+        color: white;
+        font-family: 'Bold';
+        font-size: 13px;
+    }
+
+    .container-message {
+        width: 52%;
+        height: 100%;
+        border: $testborder;
+        @include flex-middle();
+    }
+
+    .container-message > p {
+        color: white;
+        font-family: 'Black';
+    }
+
+    .container-loggedin {
+        width: 29%;
+        height: 100%;
+        border: $testborder;
+        @include flex-end();
+    }
+
+    .container-loggedin > p {
+        color: white;
+        font-family: 'Bold';
+        font-size: 13px;
+        margin-right: 10px;
+    }
+
+    .container-loggedin > p:hover {
+        text-decoration: underline 2px solid white;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    #top-banner-header {
+        width: 100%;
+        height: 25px;
+        background-color: black;
+        @include flex-middle();
+    }
+
+    .container-socials {
+        width: 30%;
+        height: 100%;
+        border: $testborder;
+        @include flex-start();
+    }
+
+    #social-message {
+        width: auto;
+        height: 17px;
+        border: $testborder;
+        margin-left: 10px;
+        @include flex-middle();
+    }
+
+    #social-message > p {
+        color: white;
+        font-family: 'Bold';
+        font-size: 13px;
+    }
+
+    .container-message {
+        width: 40%;
+        height: 100%;
+        border: $testborder;
+        @include flex-middle();
+    }
+
+    .container-message > p {
+        color: white;
+        font-family: 'Black';
+    }
+
+    .container-loggedin {
+        width: 30%;
+        height: 100%;
+        border: $testborder;
+        @include flex-end();
+    }
+
+    .container-loggedin > p {
+        color: white;
+        font-family: 'Bold';
+        font-size: 13px;
+        margin-right: 10px;
+    }
+
+    .container-loggedin > p:hover {
+        text-decoration: underline 2px solid white;
+        cursor: pointer;
+    }
+} 

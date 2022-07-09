@@ -1,9 +1,9 @@
-<a href="" *ngIf="anchor == true; else button" id="social-button" [ngStyle]="{height: height, width: width, 'margin-left': leftmargin}">
+<a routerLink="" *ngIf="anchor == true; else button" id="social-button" [ngStyle]="{height: height, width: width, 'margin-left': leftmargin, 'margin-right': rightmargin}">
     <img id="social-image" src="{{ imgsrc }}">
 </a>
 
 <ng-template #button>
-    <div id="social-button" [ngStyle]="{height: height, width: width, 'margin-left': leftmargin}">
+    <div id="social-button" [ngStyle]="{height: height, width: width, 'margin-left': leftmargin, 'margin-right': rightmargin}">
         <img id="social-image" src="{{ imgsrc }}">
     </div>
 </ng-template>

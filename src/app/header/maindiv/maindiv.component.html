@@ -1,16 +1,44 @@
 <div id="main-header-div">
+    <div id="{{ searchdivid }}">
+        <div id="searchdiv-container">
+            <div id="searchdiv-cancel">
+                <app-button [imgsrc]="'assets/x.png'" (click)="HideSearch()" [anchor]="false" [height]="'25px'" [width]="'25px'">
+                </app-button>
+            </div>
+            <div id="searchdiv-searchbar">
+                <input type="text" id="searchbarinput" placeholder="ПРЕТРАЖИ">
+            </div>
+            <div id="search-results">
+                
+            </div>
+        </div>
+    </div>
     <div id="logo-image">
         <app-button id="logo-img-button" [imgsrc]="'assets/logo.png'" [height]="'60px'" [width]="'60px'" [leftmargin]="'10px'">
         </app-button>
-        <app-button id="short-menu-button" [imgsrc]="'assets/menu-short.png'" [anchor]="false" [height]="'35px'" [width]="'35px'">
+        <app-button id="short-menu-button" [imgsrc]="'assets/menu-short.png'" [anchor]="false" [height]="'25px'" [width]="'25px'">
         </app-button>
-        <app-button id="search-menu-button" [imgsrc]="'assets/search.png'" [anchor]="false" [height]="'25px'" [width]="'25px'">
+        <app-button (click)="ShowSearch()" id="search-menu-button" [imgsrc]="'assets/search.png'" [anchor]="false" [height]="'25px'" [width]="'25px'">
         </app-button>
     </div>
     <div id="menu-div">
-
+        <app-anchor-tab [tabtext]="'МУШКАРЦИ'" [id]="'main-menu-tab'">
+        </app-anchor-tab>
+        <app-anchor-tab [tabtext]="'ЖЕНЕ'" [id]="'main-menu-tab'">
+        </app-anchor-tab>
+        <app-anchor-tab [tabtext]="'ДЕЦА'" [id]="'main-menu-tab'">
+        </app-anchor-tab>
+        <app-anchor-tab [tabtext]="'OTTO-DIVISION'" [id]="'main-menu-tab'" [bold]="true">
+        </app-anchor-tab>
+        <app-button id="logo-img-button-middle" [imgsrc]="'assets/logo.png'" [height]="'60px'" [width]="'60px'">
+        </app-button>
     </div>
     <div id="tools-div">
-
+        <app-button (click)="ShowSearch()" id="search-tools-menu-button" [anchor]="false" [imgsrc]="'assets/search.png'" [height]="'25px'" [width]="'25px'" [rightmargin]="'13px'">
+        </app-button>
+        <app-button id="loggin-img-button" [anchor]="false" [imgsrc]="'assets/user.png'" [height]="'25px'" [width]="'25px'">
+        </app-button>
+        <app-button id="cart-img-button" [anchor]="false" [imgsrc]="'assets/shopping-cart.png'" [height]="'25px'" [width]="'25px'">
+        </app-button>
     </div>
 </div>

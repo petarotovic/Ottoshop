@@ -11,6 +11,7 @@ export class ButtonComponent implements OnInit {
   @Input() width: string = '';
   @Input() leftmargin: string = '';
   @Input() anchor: boolean = true;
+  @Input() rightmargin: string = '';
 
   constructor() { }
 

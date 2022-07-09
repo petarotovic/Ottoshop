@@ -7,6 +7,9 @@ import { StartingPageComponent } from './StartingPage/starting-page/starting-pag
 import { HeaderbannerComponent } from './header/headerbanner/headerbanner.component';
 import { ButtonComponent } from './Generators/button-generator/button.component';
 import { MaindivComponent } from './header/maindiv/maindiv.component';
+import { AnchorTabComponent } from './Generators/anchor-tab/anchor-tab.component';
+import { ContentComponent } from './content/content/content.component';
+import { BannerimagesComponent } from './content/bannerimages/bannerimages.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +19,9 @@ import { MaindivComponent } from './header/maindiv/maindiv.component';
     HeaderbannerComponent,
     ButtonComponent,
     MaindivComponent,
+    AnchorTabComponent,
+    ContentComponent,
+    BannerimagesComponent,
   ],
   imports: [
     BrowserModule,

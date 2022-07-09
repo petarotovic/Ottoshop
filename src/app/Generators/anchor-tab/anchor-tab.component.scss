@@ -1,0 +1,17 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a > p {
+    letter-spacing: 2px;
+}
+
+#main-menu-tab {
+    display: inline-block;
+    border-bottom: 3px solid transparent;
+}
+
+#main-menu-tab:hover {
+    border-bottom: 3px solid black;
+}

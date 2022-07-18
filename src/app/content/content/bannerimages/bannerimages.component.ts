@@ -51,10 +51,8 @@ export class BannerimagesComponent implements OnInit {
     this.timeout = setInterval(() => {
       if(this.imgid + 1 > this.imgsrcarray.length - 1) {
         this.imgid = 0;
-        console.log(this.imgid)
       } else {
         this.imgid++;
-        console.log(this.imgid)
       }
     }, 8000)
   }

@@ -1,0 +1,20 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Duks Srbija"
+    },
+    {
+      "name": "Majica",
+      "id": 2
+    },
+    {
+      "name": "Majica",
+      "id": 3
+    },
+    {
+      "name": "Majica",
+      "id": 4
+    }
+  ]
+}

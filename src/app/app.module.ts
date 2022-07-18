@@ -9,7 +9,10 @@ import { ButtonComponent } from './Generators/button-generator/button.component'
 import { MaindivComponent } from './header/maindiv/maindiv.component';
 import { AnchorTabComponent } from './Generators/anchor-tab/anchor-tab.component';
 import { ContentComponent } from './content/content/content.component';
-import { BannerimagesComponent } from './content/bannerimages/bannerimages.component';
+import { BannerimagesComponent } from './content/content/bannerimages/bannerimages.component';
+import { ProductsStripeComponent } from './content/content/productsstripe/productsstripe.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { StripetitleComponent } from './content/content/productsstripe/stripetitle/stripetitle.component';
 
 @NgModule({
   declarations: [
@@ -22,10 +25,13 @@ import { BannerimagesComponent } from './content/bannerimages/bannerimages.compo
     AnchorTabComponent,
     ContentComponent,
     BannerimagesComponent,
+    ProductsStripeComponent,
+    StripetitleComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

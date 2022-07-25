@@ -1,0 +1,8 @@
+<div id="products-stripe">
+    <div id="back-button" (click)="Backwards()"><</div>
+    <div id="products-container">
+        <app-productcard  id="{{ 'pr' + i + sortid }}" *ngFor="let x of productsarray; let i = index;" [cssid]="'pr' + i" [productname]="x['name']" [productimages]="x['images']" [price]="x['price']">
+        </app-productcard>
+    </div>
+    <div id="forward-button" (click)="Forward()">></div>
+</div>

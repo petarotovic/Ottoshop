@@ -1,0 +1,16 @@
+<div id="{{ cssid }}" class="product-card">
+    <div id="product-image">
+        <img *ngIf="productimages != undefined" (mouseover)="SecondImage()" (mouseout)="FirstImage()" [src]="productcurrentimage">
+        <div id="product-price">
+            <p>{{ productprice }}</p>
+        </div>
+    </div>
+    <div id="product-info">
+        <div id="product-name">
+            <p>{{ productname }}</p>
+        </div>
+        <div id="product-category">
+            <p>JAKNA</p>
+        </div>
+    </div>
+</div>

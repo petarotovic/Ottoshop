@@ -15,9 +15,13 @@ export class MaindivComponent implements OnInit {
 
   ShowSearch() {
     this.searchdivid = 'search-div-eject';
+    //var a = document.getElementsByTagName("body")[0];
+    //a.style.overflowY = 'hidden';
   }
 
   HideSearch() {
     this.searchdivid = 'search-div';
+    //var a = document.getElementsByTagName("body")[0];
+    //a.style.overflowY = 'scroll';
   }
 }

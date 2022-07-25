@@ -13,6 +13,9 @@ import { BannerimagesComponent } from './content/content/bannerimages/bannerimag
 import { ProductsStripeComponent } from './content/content/productsstripe/productsstripe.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { StripetitleComponent } from './content/content/productsstripe/stripetitle/stripetitle.component';
+import { ConnectToDB } from './db.service';
+import { ProductcardComponent } from './content/content/productsstripe/productcard/productcard.component';
+import { ProductcontainerComponent } from './content/content/productsstripe/productcontainer/productcontainer.component';
 
 @NgModule({
   declarations: [
@@ -26,14 +29,16 @@ import { StripetitleComponent } from './content/content/productsstripe/stripetit
     ContentComponent,
     BannerimagesComponent,
     ProductsStripeComponent,
-    StripetitleComponent
+    StripetitleComponent,
+    ProductcardComponent,
+    ProductcontainerComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [ConnectToDB],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

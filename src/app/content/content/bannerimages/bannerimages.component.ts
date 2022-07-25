@@ -25,6 +25,7 @@ export class BannerimagesComponent implements OnInit {
 
   ngOnInit(): void {
     this.StartTimer();
+    console.log(this.imgsrc);
   }
 
   IncreaseIndex() {

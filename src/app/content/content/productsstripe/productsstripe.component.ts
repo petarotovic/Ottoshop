@@ -8,6 +8,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ProductsStripeComponent implements OnInit {
   @Input() title: string = '';
+  @Input() sort: number | undefined;
   constructor() { }
 
   ngOnInit(): void {

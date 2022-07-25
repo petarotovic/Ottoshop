@@ -2,19 +2,153 @@
   "products": [
     {
       "id": 1,
-      "name": "Duks Srbija"
+      "name": "Дукс Кнез Лазар",
+      "images": {
+        "Image1": "assets/Products/1-1.png",
+        "Image2": "assets/Products/1-2.png",
+        "Image3": "",
+        "Image4": "",
+        "Image5": "",
+        "Image6": ""
+      },
+      "price": 6700,
+      "dateadded": "1/8/2022",
+      "timessold": 1
     },
     {
       "name": "Majica",
-      "id": 2
+      "id": 2,
+      "images": {
+        "Image1": "assets/Products/1-1.png",
+        "Image2": "",
+        "Image3": "",
+        "Image4": "",
+        "Image5": "",
+        "Image6": ""
+      },
+      "price": 6700,
+      "dateadded": "4/1/2022",
+      "timessold": 5
     },
     {
       "name": "Majica",
-      "id": 3
+      "id": 3,
+      "images": {
+        "Image1": "assets/Products/1-1.png",
+        "Image2": "",
+        "Image3": "",
+        "Image4": "",
+        "Image5": "",
+        "Image6": ""
+      },
+      "price": 6700,
+      "dateadded": "8/1/2022",
+      "timessold": 2
     },
     {
       "name": "Majica",
-      "id": 4
+      "id": 4,
+      "images": {
+        "Image1": "assets/Products/1-1.png",
+        "Image2": "",
+        "Image3": "",
+        "Image4": "",
+        "Image5": "",
+        "Image6": ""
+      },
+      "price": 6700,
+      "dateadded": "19/1/2022",
+      "timessold": 18
+    },
+    {
+      "id": 5,
+      "name": "Duks Srbija",
+      "images": {
+        "Image1": "assets/Products/1-1.png",
+        "Image2": "",
+        "Image3": "",
+        "Image4": "",
+        "Image5": "",
+        "Image6": ""
+      },
+      "price": 6700,
+      "dateadded": "27/1/2022",
+      "timessold": 4
+    },
+    {
+      "name": "Majica",
+      "id": 6,
+      "images": {
+        "Image1": "assets/Products/1-1.png",
+        "Image2": "",
+        "Image3": "",
+        "Image4": "",
+        "Image5": "",
+        "Image6": ""
+      },
+      "price": 6700,
+      "dateadded": "4/2/2022",
+      "timessold": 3
+    },
+    {
+      "name": "Majica",
+      "id": 7,
+      "images": {
+        "Image1": "assets/Products/1-1.png",
+        "Image2": "",
+        "Image3": "",
+        "Image4": "",
+        "Image5": "",
+        "Image6": ""
+      },
+      "price": 6700,
+      "dateadded": "17/3/2022",
+      "timessold": 90
+    },
+    {
+      "name": "Majica",
+      "id": 8,
+      "images": {
+        "Image1": "assets/Products/1-1.png",
+        "Image2": "",
+        "Image3": "",
+        "Image4": "",
+        "Image5": "",
+        "Image6": ""
+      },
+      "price": 6700,
+      "dateadded": "13/7/2022",
+      "timessold": 15
+    },
+    {
+      "name": "Majica",
+      "id": 9,
+      "images": {
+        "Image1": "assets/Products/1-1.png",
+        "Image2": "",
+        "Image3": "",
+        "Image4": "",
+        "Image5": "",
+        "Image6": ""
+      },
+      "price": 6700,
+      "dateadded": "27/7/2022",
+      "timessold": 2
+    },
+    {
+      "name": "Majica",
+      "id": 9,
+      "images": {
+        "Image1": "assets/Products/1-1.png",
+        "Image2": "",
+        "Image3": "",
+        "Image4": "",
+        "Image5": "",
+        "Image6": ""
+      },
+      "price": 6700,
+      "dateadded": "24/7/2022",
+      "timessold": 7
     }
   ]
 }
